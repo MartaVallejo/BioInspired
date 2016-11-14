@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/bbob.v15.03/python/exampleexperimentv2.py" line="149" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b0f685e6-3e21-4551-a558-18842283bdce" name="Default" comment="" />
     <ignored path="bbobpproc.iws" />
@@ -16,7 +19,7 @@
     <SUITE FILE_PATH="coverage/bbobpproc$lol.coverage" NAME="lol Coverage Results" MODIFIED="1479094015924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bbob.v15.03/python" />
     <SUITE FILE_PATH="coverage/bbobpproc$exampleexperiment.coverage" NAME="exampleexperiment Coverage Results" MODIFIED="1478973522791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bbob.v15.03/python" />
     <SUITE FILE_PATH="coverage/bbobpproc$GA.coverage" NAME="GA Coverage Results" MODIFIED="1478875756168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bbob.v15.03/python" />
-    <SUITE FILE_PATH="coverage/bbobpproc$exampleexperimentv2.coverage" NAME="exampleexperimentv2 Coverage Results" MODIFIED="1479098421225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bbob.v15.03/python" />
+    <SUITE FILE_PATH="coverage/bbobpproc$exampleexperimentv2.coverage" NAME="exampleexperimentv2 Coverage Results" MODIFIED="1479129867636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bbob.v15.03/python" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -27,21 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="exampleexperiment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bbob.v15.03/python/exampleexperiment.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="exampleexperimentv2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bbob.v15.03/python/exampleexperimentv2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+            <state relative-caret-position="1350">
+              <caret line="169" column="45" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
               <folding>
                 <element signature="e#427#500#0" expanded="true" />
               </folding>
@@ -143,6 +136,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbobpproc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbobpproc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bbob.v15.03" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ppdata" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -660,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bbob.v15.03/python/exampleexperimentv2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        <state relative-caret-position="1350">
+          <caret line="169" column="45" selection-start-line="169" selection-start-column="45" selection-end-line="169" selection-end-column="45" />
           <folding>
             <element signature="e#427#500#0" expanded="true" />
           </folding>

@@ -100,16 +100,21 @@ def PURE_RANDOM_SEARCH(fun, x, maxfunevals, ftarget):
         #return actual output from NN
         return L2
 
-    #no used tried to create function to do crossover
+    #not used tried to create function to do crossover
     def crossover(chromo1,chromo2 ):
+        #finds random position
         pos = int(random.random() * populationSize)
+        #returns back chomosomes with crossed values
         return chromo1[:pos] + chromo2[pos:], chromo2[:pos] + chromo1[pos:]
 
-
+    #Single gene mutation
     def mutate(chromo, mutation_rate):
+        #for every element in the chromosome
         for i in xrange(chromolen):
+            #random position
             pos_to_mutate = np.random.randint(0, chromolen)
             if mutation_rate > np.random.rand():
+                #mutate the chromosome by replacing the random position in the chormosome with a random number
                 chromo[pos_to_mutate ] = np.random.rand()
         return chromo
 
@@ -120,31 +125,41 @@ def PURE_RANDOM_SEARCH(fun, x, maxfunevals, ftarget):
             best == individual
         return best
 
+    #not used as fitness was worked out using the error for my GA
     def fitness(chromo, ftarget):
         length = len(chromo)
         sum = reduce(add, length, 0)
         fitnesss = abs(ftarget - sum)
         return fitnesss
-
+    #best fitness so far
     bestfit=0
+    #best chromsome now
     bestchromo = 0
+
+    #average error
     average = 0
 
     #hill climb
+
+    #for each generation
     for gen in xrange(generations):
         for counts in xrange(count):
+                #for each individual in the population
                 for individual in xrange(populationSize):
+                    #the error = the expected output minus the actual output
                     error = (Y[gen] - (NN(pop[individual], X[gen])))
                     if bestfit > error:
+                        #keep the fittest
                         bestfit = error
                         bestchromo = pop[individual]
-                    print(error)
+                    #print(error)
 
         #keep the best chromo
         pop[0] = bestchromo
         for individuals in range(1,populationSize):
+            #mutate the population apart from the best found
             pop[individuals] = mutate(pop[individuals],mutation_rate)
-
+            #work out error after mutation to see if its getting better
             aftermutation = (Y[gen] - (NN(pop[individuals],X[gen])))
             #trainederror =  ftarget - aftermutation
             #print(trainederror)
@@ -152,6 +167,7 @@ def PURE_RANDOM_SEARCH(fun, x, maxfunevals, ftarget):
             #pop[individuals] = crossover(pop[individuals],pop[individuals-1])
             #pop[individuals] = tournament(pop[individuals])
 
+            #the average error after mutation
             average = np.mean(aftermutation)
         print('The Average Error = ' + str(average))
 
